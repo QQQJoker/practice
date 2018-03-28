@@ -1,6 +1,6 @@
 package com.joker.practice.atomic;
 /**
- * 测试指令重排对多线程的影响
+ * 测试指令重排对多线程的影响.
  * @author Joker
  *
  */
