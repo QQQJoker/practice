@@ -20,4 +20,13 @@ public class SleepUtils {
 			e.printStackTrace();
 		}
 	}
+	
+	public static final void millseconds(long mills) {
+		try {
+			TimeUnit.MICROSECONDS.sleep(mills);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }

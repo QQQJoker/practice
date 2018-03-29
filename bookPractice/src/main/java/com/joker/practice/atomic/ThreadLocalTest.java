@@ -1,5 +1,9 @@
 package com.joker.practice.atomic;
-
+/**
+ * 使用ThreadLocal测试统计耗时。
+ * @author joker
+ *
+ */
 public class ThreadLocalTest {
 
 	private static final ThreadLocal<Long> TIME_THREADLOCAL = new ThreadLocal<Long>() {
