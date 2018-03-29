@@ -11,4 +11,13 @@ public class SleepUtils {
 			e.printStackTrace();
 		}
 	}
+	
+	public static final void sleep(long seconds) {
+		try {
+			Thread.currentThread().sleep(seconds);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }
