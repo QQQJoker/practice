@@ -1,10 +1,12 @@
 package com.joker.practice.atomic;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-
+/**
+ * 使用wait() notify()实现生产者和消费者模式
+ * @author Joker
+ *
+ */
 public class WaitNotify {
 
 	public static void main(String[] args) throws Exception {
